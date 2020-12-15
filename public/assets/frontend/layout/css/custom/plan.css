@@ -1,0 +1,373 @@
+.plan {
+  display: -webkit-flex;
+  display:     -ms-flex;
+  display:         flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
+
+.start i {
+  color: #f37f77;
+}
+
+.middle i {
+  color: #f25247;
+}
+
+.gld {
+  height: auto;
+  -webkit-animation: plan 9s ease infinite;
+     -moz-animation: plan 9s ease infinite;
+       -o-animation: plan 9s ease infinite;
+          animation: plan 9s ease infinite;
+  border-radius: 3px;
+  background: linear-gradient(270deg, #f5560c, #f5db0c);
+  background-size: 400% 400%;
+}
+
+.gld p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+.start {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin: 15px;
+  padding: 28px;
+  text-align: center;
+  border: solid 2px #eee;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.start p {
+  padding: 8px 5px;
+}
+
+
+
+@-webkit-keyframes plan {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@-moz-keyframes plan {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@-o-keyframes plan {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@keyframes plan {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.light-plan {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  margin: 15px;
+  margin-left: 19px;
+  padding: 28px;
+  text-align: center;
+  border: solid 2px #f2655a;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.light-plan:before {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: -50px;
+  left: -2px;
+  width: 368px;
+  height: 50px;
+  padding: 10px;
+  padding-top: 5px;
+  content: "人気オススメ！";
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background-color: #f2655a;
+}
+
+
+.middle p {
+  padding: 8px 5px;
+}
+
+
+.Planbox {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 8px 0;
+  border-radius: 30px !important;
+  background-color: #f37f77;
+}
+
+.Planbox--recommened {
+  background-color: #f25247;
+}
+
+.Planbox--free {
+  margin-top: 32px;
+}
+
+
+.Planbox a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Planbox:hover {
+  opacity: .7;
+}
+
+
+
+.PlanText {
+  font-size: 14px;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.PlanText span {
+  font-size: 14px;
+}
+
+#detail {
+  line-height: 1.6;
+  min-height: 100px;
+}
+
+#boxTopContens {
+  clear: both;
+}
+
+.icon ul li.gb {
+  background-color: #f781be ;
+}
+
+.icon ul li.rplan {
+  background-color: #f2655a ;
+}
+
+.icon ul li.mplan {
+  background-color: #f2655a ;
+}
+
+#planicon {
+  margin-top: 5px;
+}
+
+.shop_box .shop_name {
+  padding-left: 3%;
+}
+
+
+@media screen and (max-width:414px) {
+  .plan {
+    width: 100%;
+  }
+  .start p,
+  .middle p {
+    font-size: 18px;
+    padding: 23px 0;
+  }
+  .start {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+
+  .middle {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .light-plan:before {
+    width: 95.3%;
+    color: #f25247;
+    background: none;
+  }
+
+  #detail {
+    min-height: inherit;
+  }
+
+  .Planbox {
+    margin-bottom: 30px;
+  }
+
+  .PlanText {
+    font-size: 14px!important;
+    padding: 20px !important;
+  }
+  .PlanText span {
+    font-size: 14px!important;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .icon ul li.rplan {
+    margin-bottom: 3%;
+  }  
+}  
+@media screen and (max-width:768px) {
+  .plan {
+    width: 100%;
+    flex-flow: column;
+  }
+
+  .start {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+
+  .middle {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .light-plan:before {
+    width: 95.3%;
+    color: #f25247;
+    background: none;
+  }
+
+  .Planbox {
+    margin-bottom: 30px;
+  }
+
+  .PlanText {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:980px) {
+  .plan {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .start {
+    width: 39.3%;
+  }
+
+  .middle {
+    width: 39.3%;
+  }
+
+  .light-plan:before {
+    width: 94.3%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:899px) {
+  .plan {
+    width: 100%;
+    margin-left: 25px;
+  }
+
+  .start {
+    width: 35%;
+  }
+
+  .middle {
+    width: 35%;
+  }
+
+  .light-plan:before {
+    width: 93.2%;
+  }
+
+  .PlanText {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+
+  .icon ul li {
+    margin: 1%;
+  }
+
+  .icon ul li.gb {
+    margin-top: 1%;
+  }
+
+  .shop_box .shop_name {
+    font-size: 135%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 809px) {
+  .icon ul li.mplan {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .icon ul li.mplan {
+    margin-top: 5px;
+  }
+}
+
+
+@media only screen and (max-device-width: 568px) and (min-device-width: 320px) {
+  .icon ul li.newicon {
+    margin: 1%;
+  }
+}

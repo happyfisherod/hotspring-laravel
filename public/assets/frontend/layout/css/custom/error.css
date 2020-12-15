@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+#boxMain {
+    background: #ffffff none repeat scroll 0 0;
+    min-height: auto;
+}
+
+.error{
+	padding-top: 30px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+}
+
+#error_text{
+
+	padding-top: 30px;
+	width: 45%;
+	margin: 0 auto;
+}
+
+#error_text p{
+	border:1px solid #FA5858;
+	padding: 13px;
+	font-size: 16px;
+	color:#FA5858;
+	text-align: center;
+}
+
+#login_text{
+
+	padding-top: 30px;
+	width: 45%;
+	margin: 0 auto;
+}
+
+#login_text p{
+	border:1px solid #81BEF7;
+	padding: 13px;
+	font-size: 16px;
+	color:#81BEF7;
+	text-align: center;
+}
+
+
+
+
+/* ƒ^ƒuƒŒƒbƒg */
+@media (max-width: 1020px) and (min-width: 768px) {
+	#boxList {
+	    width: 100%;
+	}
+}
+/* ƒXƒ}ƒz */
+@media (max-width: 767px) {
+	#boxList {
+		width:100%;
+	}
+	.panlist {
+		display:none;
+	}
+	.about_name {
+	    font-size: 120%;
+	    line-height: 1.7em;
+	    margin: 5% auto;
+	    text-align: left;
+	    width: 98%;
+	}
+	.step {
+	    width: 100%;
+	}
+	.step > li {
+	    float: none;
+	    margin: 0 auto 5%;
+	    width: 60%;
+	    background:#FFFFFF;
+	}
+	.step p {
+	    font-size: 120%;
+	    line-height: 1.5em;
+	    padding: 0 3%;
+	    text-align: left;
+	}
+	.step > li {
+		/* box-shadow */
+		box-shadow:0px 0px 6px 3px #E4E0DD;
+		-moz-box-shadow:0px 0px 6px 3px #E4E0DD;
+		-webkit-box-shadow:0px 0px 6px 3px #E4E0DD;
+		/* border-radius */
+		border-radius:6px;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		/* border */
+		border:1px solid #e4e0dd;
+	}
+	.txt_info {
+	    font-size: 160%;
+	    margin: 8% auto;
+	}
+	.txt_info > span {
+	    margin: 4% auto;
+		font-size:60%;
+	}
+	.btn_about {
+	    margin: 0 auto;
+	    width: 70%;
+	}
+	.btn_about a {
+	    font-size: 130%;
+	    width: 100%;
+	}
+	._btn_regist > a {
+	    font-size: 140%;
+	    width: 100%;
+	}
+}
+
+/* iPhone4,iPhone5,iPhone5sのみ */
+@media screen and (min-width: 320px) and (max-width: 374px){
+
+	.txt_info > span{
+		font-size: 80%;
+		line-height: 1.5;
+		padding: 5px;
+	}
+
+	footer{
+		margin-top: 100px;
+	}
+
+	.faq label{
+		font-size: 15px;
+		line-height: 1.5;
+		height: auto;
+	}
+
+
+	#error_text{
+		width: 97%;
+	}
+
+	#error_text p{
+		font-size: 13px;
+		line-height: 1.4;
+	}
+
+	#login_text{
+		width: 97%;
+	}
+
+	#login_text p{
+		font-size: 13px;
+	}
+
+}
+
+/* iPhone6のみ */
+@media screen and (min-width: 375px) and (max-width: 413px){
+
+	.txt_info > span{
+		font-size: 80%;
+		line-height: 1.5;
+		padding: 5px;
+	}
+
+	footer{
+		margin-top: 100px;
+	}
+
+	.faq label{
+		font-size: 15px;
+		line-height: 1.5;
+		height: auto;
+	}
+
+	#error_text{
+		width: 97%;
+	}
+
+	#error_text p{
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+	#login_text{
+		width: 97%;
+	}
+
+	#login_text p{
+		font-size: 14px;
+	}
+
+
+}
+
+
+/* iPhone6 Plus ~ ちょっと大きいスマホまで */
+@media screen and (min-width: 414px) and (max-width: 500px){
+	.txt_info > span{
+		font-size: 80%;
+		line-height: 1.5;
+		padding: 5px;
+	}
+
+	footer{
+		margin-top: 100px;
+	}
+
+	.faq label{
+		font-size: 15px;
+		line-height: 1.5;
+		height: auto;
+	}
+
+	#error_text{
+		width: 97%;
+	}
+
+	#error_text p{
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+	#login_text{
+		width: 97%;
+	}
+
+	#login_text p{
+		font-size: 14px;
+	}
+
+}
+
+
+/*タブレット　追加*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .panlist{
+        padding-left: 20px;
+    }
+
+    .contact{
+        padding-left: 20px;
+        margin: 20px 0;
+
+    }
+
+    .siteinfo ul li{
+        margin: 0 15px;
+    }
+
+    #error_text{
+		width: 70%;
+	}
+
+	#error_text p{
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	#login_text{
+		width: 70%;
+	}
+
+	#login_text p{
+		font-size: 16px;
+	}
+
+
+}
+
+@media screen and (min-device-width: 501px) and (max-device-width: 767px) {
+	 #error_text{
+		width: 70%;
+	}
+
+	#error_text p{
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	#login_text{
+		width: 70%;
+	}
+
+	#login_text p{
+		font-size: 16px;
+	}
+
+
+
+	}

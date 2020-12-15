@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* 追加済み
+
+PC
+
+.main_box h2{
+	width:230px; style
+}
+
+#boxMain {
+    min-height: 677px; top style
+}
+
+.newshop {
+    margin-bottom: 10%;　style　消す
+}
+
+.menu a {
+    font-weight: 500!important;
+	padding-bottom: 10px;
+}
+
+.close{
+	width:20%!important;
+}
+
+.logInfo{
+	line-height: 1.8;
+}
+
+.logInfo_ {
+     color: #231f20;
+    font-size: 90%;
+    text-align: center;
+    background: #f4f5f2;
+    padding-bottom: 3%;
+    margin-top: -20px;
+}
+
+.reminder{
+	margin: 0 auto 30px!important;
+}
+
+.loginSend_f{
+	margin: 25% auto 7%!important;
+}
+
+.loginSend_login{
+	margin: 10% auto 1%!important;
+}
+
+.btn_fb > a{
+	padding: 3.5% 20% 3.5%!important;
+}
+
+.reminder a{
+	font-size: 90%;
+}
+
+#box_l{
+	max-height: 360px!important;
+}
+
+#box{
+	width: 29.5%!important;
+}
+
+#box_l{
+	width: 29.5%!important;
+}
+
+
+.about_name{
+	margin: 5% auto 4%;
+}
+
+.step {
+	padding-top:27px;
+}
+
+
+ul.content{
+	width:86%;なし
+}
+
+.shop_box{
+	margin: 3% 1.65% 1%;
+}
+
+
+.shop_box:nth-child(3n+1) {
+    margin: 3% 0 1%;なし style
+}
+
+
+.shop_box:nth-child(3n+3) {
+    margin: 4% 1%;
+}
+
+.shop_box:first-child {
+    margin: 3% 0 4%;なし　style
+}
+
+.shop_taglist{
+    	line-height: 1.5em; 
+    	padding-top: 2%; 
+		width: 93%; 
+}
+
+.tag > li{
+	padding: 1% 2%;
+	border: 1px solid #a19891; なし
+	font-weight: bold;なし
+}
+
+.shop_box p.pre {
+	margin: 5px 0 3px 10px; style
+}
+
+.city{
+	 padding: 8.5px 0 0 20px;
+}
+
+.shop_taglist{
+  	padding-left: 5px;
+}
+
+
+--------detail↓------------
+
+
+.icon ul li{
+	  padding: 6px 6px; style
+}
+
+
+
+*/
+
+
+
+/*
+
+スマホ
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) {
+
+	.rank_jp{
+		margin-left: 20px!important;
+	}
+	
+    .rank_name{
+        padding-left:20px!important;
+        line-height: 2.1!important;
+         font-size: 17px!important;
+    }
+
+
+    .rank_icon{
+		margin-left:10px!important;
+    }
+
+
+     .loginSend_login{
+        margin: 10% auto 5%;
+        text-align: center;
+    }
+
+    .loginSend_f{
+        margin: 10% auto 5%;
+        text-align: center;
+    }
+
+	}
+
+/* iPHone4,iPhone5,iPhone5sのみ 
+@media screen and (min-width: 320px) and (max-width: 374px)
+{
+
+	.rank_img{
+        text-indent: 0!important;
+        margin-right: 7px!important;
+    }
+
+    .shop_box:nth-child(3n+2){
+        margin: 3% 0 1%;
+    }
+ 
+}
+
+/* iPhone6 Plus ~ ちょっと大きいスマホまで 
+@media screen and (min-width: 414px) and (max-width: 500px){
+    .fbbox iframe{
+        width: 100%;
+    }
+
+    .rank_img{
+        text-indent: 8.2%!important;
+    }
+
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+
+    #box{
+        width: 60%;
+    }
+
+    #box_l{
+        width: 60%;
+    }
+
+
+    .main_regist  a img{
+        width: 30%;
+        margin-left: 50px;
+    }
+
+    .shop_box{
+        width: 29%;
+        margin: 3% 1% 1%;
+    }
+
+    .shop_box:nth-child(3n+1){
+        margin: 3% 1% 1%;
+    }
+
+    .shop_box:nth-child(3n+3){
+        margin: 3% 1% 1%;
+    }
+
+    .shop_box > p{
+        text-indent: 0;
+    }
+
+    .rank_img{
+        padding-left: 0;
+    }
+
+    .newarticle > h3{
+        width: 255px;
+    }
+
+    .newshop{
+        margin-left: 3px;
+    }
+
+    .tblList{
+        margin-left: 15px;
+    }
+
+
+    その他、色々いじった　濱田さん部分
+}
+
+
+*/
+
+

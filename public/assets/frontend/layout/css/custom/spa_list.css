@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+
+#boxMain {
+    background: #ffffff none repeat scroll 0 0;
+    min-height: unset;
+}
+.panlist {
+    font-size: 120%;
+    margin: 0 auto;
+    width: 1081px;
+}
+.panlist > a {
+    color: #f66424;
+
+}
+#boxList {
+    margin: 2% auto;
+    width: 1081px;
+    background:#fff7f3;
+}
+#boxList h3 {
+	// background:#ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 39.2% center;
+}
+.area_name {
+    font-size: 160%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+ul.content {
+    margin: 0 auto;
+    width: 86%;
+}
+.shop_box {
+    padding: 2% 1%;
+    width: 29%;
+}
+.pager {
+    margin: 0 auto 3%;
+    padding: 2% 0;
+    width: 86%;
+}
+
+.Topiclist {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.shop_box > a {
+    text-decoration: none;
+}
+.shop_box figure {
+    position: relative;
+}
+.pager li {
+    width: 15%;
+    font-size: 140%;
+    border: 1px solid #ccc3bc;
+    text-align: center;
+    border-radius: 10px;
+}
+.pager li a {
+    border-radius: 10px;
+    color: #fab79c;
+    display: block;
+    padding: 5% 0;
+    text-decoration: none;
+}
+.pager li a:hover {
+    color: #FFFFFF;
+    background:#ff6e41;
+}
+.before {
+    float: left;
+}
+.next {
+    float: right;
+}
+.area_type li {
+    float: left;
+}
+.shop_box p.pre {
+    width: 100%;
+}
+.city {
+    display: block;
+    padding: 8.5px 0 0 20px;
+}
+.shop_box .shop_name {
+    border-top: 1px dashed #b5b5b5;
+}
+.shop_taglist{
+    border-top: 1px dashed #b5b5b5;
+    margin: 3% auto 0;
+    text-indent: 0;
+  	padding-left: 5px;
+}
+.tag > li {
+    background: #f2eeed none repeat scroll 0 0;
+    border-radius: 6px;
+    color: #a19891;
+    float: left;
+    font-size: 11px;
+    margin: 2% 1% 0;
+    padding: 1% 1%;
+}
+.tag > li.active {
+    background: #FF6E41 none repeat scroll 0 0;
+    color: #FFFFFF;
+}
+
+.shop_box{
+	margin: 3.95% 1%;
+}
+
+.shop_box:nth-child(3n+1) {
+    margin: 4% 1%;
+}
+
+.shop_box:nth-child(3n+3) {
+    margin: 4% 1%;
+}
+
+/* ƒ^ƒuƒŒƒbƒg */
+@media (max-width: 1020px) and (min-width: 768px) {
+	#boxList {
+	    width: 100%;
+	}
+}
+/* ƒXƒ}ƒz */
+@media (max-width: 767px) {
+	#boxList {
+		width:100%;
+		background:#ffffff none repeat scroll 0 0;
+	}
+	.panlist {
+		display:none;
+	}
+	.shop_box {
+	    background: #ffffff none repeat scroll 0 0;
+	    border: medium none;
+	    border-radius: 0;
+	    box-shadow: none;
+	    float: left;
+	    width: 45%;
+	}
+	.icon {
+	    display: none;
+	}
+	.tag.clr > li.active {
+	    display: block;
+	}
+	.tag.clr > li {
+	    display: none;
+	}
+	.city {
+	    padding: 7.5px 0 0 12px;
+    	font-size: 11px;
+	}
+	.shop_box .shop_name {
+	    font-size: 100%;
+	    font-weight: normal;
+	    padding-top: 10px;
+	}
+	.tag > li {
+	    font-size: 80%;
+	}
+	.comment_info {
+	    line-height: 1.5em;
+	    margin: 3% auto;
+	}
+	.shop_box:nth-child(3n+1) {
+	    margin: 3% 1.5% 4%;
+	}
+	.shop_box:nth-child(3n+3) {
+	    margin: 3% 1.5% 4%;
+	}
+	.shop_box p.pre {
+	    margin: 3px 0;
+	    padding: 4px 3px 2px;
+	    width: 100%;
+	}
+	.new {
+	    left: -8px;
+	    top: -10px;
+	    width: 30%;
+	}
+	#boxList h3 {
+	    // background: #ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 29% center/8%;
+	}
+
+}
+
+
+/* iPhone4,iPhone5,iPhone5sのみ */
+@media screen and (min-width: 320px) and (max-width: 374px){
+	#boxList h3{
+		// background: #ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 12% center/8%
+	}
+
+	ul.content{
+		width: 100%!important;
+	}
+
+	.Topiclist.clr{
+		padding-left: 0;
+		width: 100%;
+	}
+
+
+	.shop_box{
+		margin: 0!important;
+		width: 45%!important;
+		padding: 5% 2.5%;
+	}
+
+	.tag > li{
+		padding: 3% 1%;
+	}
+
+	footer{
+		margin-top: 100px;
+	}
+
+}
+
+/* iPhone6のみ */
+@media screen and (min-width: 375px) and (max-width: 413px){
+		#boxList h3{
+		// background: #ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 17% center/8%
+	}
+
+	ul.content{
+		width: 100%!important;
+	}
+
+	.Topiclist.clr{
+		padding-left: 0;
+		width: 100%;
+	}
+
+
+	.shop_box{
+		margin: 0!important;
+		width: 45%!important;
+		padding: 5% 2.5%;
+	}
+
+	.tag > li{
+		padding: 3% 1%;
+	}
+	footer{
+		margin-top: 100px;
+	}
+
+}
+
+
+/* iPhone6 Plus ~ ちょっと大きいスマホまで */
+@media screen and (min-width: 414px) and (max-width: 500px){
+		#boxList h3{
+		// background: #ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 20% center/8%
+	}
+
+	ul.content{
+		width: 100%!important;
+	}
+
+	.Topiclist.clr{
+		padding-left: 0;
+		width: 100%;
+	}
+
+
+	.shop_box{
+		margin: 0!important;
+		width: 45%!important;
+		padding: 5% 2.5%;
+	}
+
+	.tag > li{
+		padding: 3% 1%;
+	}
+	footer{
+		margin-top: 100px;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px){
+
+    #head > h1{
+        padding: 1.5% 0 0 3.5%;
+    }
+
+    ul.content{
+		width: 100%!important;
+	}
+
+	.Topiclist.clr{
+		padding-left: 0;
+		width: 100%;
+	}
+
+
+	.shop_box{
+		margin: 0!important;
+		width: 45%!important;
+		padding: 5% 2.5%;
+	}
+
+	.tag > li{
+		padding: 3% 1%;
+	}
+
+    #head ul{
+        margin-top: 1.5%!important;
+    }
+
+    #head ul li:first-child{
+        height: 25px;
+        padding-top: 45px;
+    }
+
+    #head ul li:nth-child(2){
+        height: 25px;
+        padding-top: 45px;
+    }
+
+    #head ul li:nth-child(3){
+        height: 25px;
+        padding-top: 45px;
+    }
+
+    #boxList h3{
+    	// background:#ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 32% center/5%
+    }
+
+    #_sp img{
+        width: 100%;
+    }
+
+    .fbbox iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 670px){
+#boxList h3{
+    	// background:#ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 28% center/5%
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 767px){
+    #head > h1{
+    	margin-bottom: 10px!important;
+    }
+
+    #head ul{
+        margin-top: 1.8%!important;
+    }
+
+    #head ul li:first-child{
+        height: 25px;
+        padding-top: 55px;
+    }
+
+    #head ul li:nth-child(2){
+        height: 25px;
+        padding-top: 55px;
+    }
+
+    #head ul li:nth-child(3){
+        height: 25px;
+        padding-top: 55px;
+    }
+
+    .shop_box p.pre{
+    	margin-left: 15px;
+    }
+    .shop_box .shop_name{
+    	font-size: 17px;
+    	padding-top: 10px;
+    }
+
+    .city{
+    	padding: 7.5px 0 0 30px;
+    }
+
+    #_sp{
+    	padding: 3px;
+    }
+
+}
+
+/*タブレット　追加*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	 #boxHead h1{
+        padding-top: 7px;
+        padding-left: 10px;
+    }
+
+	#boxList h3{
+		// background: #ff9b5f url("../images/spa_list/ttl1.jpg") no-repeat scroll 34% ;
+	}
+
+	footer{
+		margin-top: 100px;
+	}
+
+	.panlist{
+		padding-left: 20px;
+	}
+
+	.contact{
+		padding-left: 20px;
+		margin: 20px 0;
+
+	}
+
+	.siteinfo ul li{
+		margin: 0 15px;
+	}
+
+}
